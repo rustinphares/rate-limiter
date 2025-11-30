@@ -1,0 +1,10 @@
+/vendor/
+
+/*.cache
+
+src/Storage/FileStorageAdapter.php
+src/Storage/MemcachedStorageAdapter.php
+src/Storage/RedisStorageAdapter.php
+src/Storage/PdoStorageAdapter.php
+example.sql
+/test.php

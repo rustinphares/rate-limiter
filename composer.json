@@ -1,0 +1,32 @@
+{
+  "name": "rustinphares/rate-limiter",
+  "description": "Simple token-bucket rate limiter with pluggable storage for PHP.",
+  "license": "MIT",
+  "keywords": [
+    "rate limit",
+    "rate limiter",
+    "token bucket",
+    "throttle"
+  ],
+  "require": {
+    "php": "^8.2"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^10.0",
+    "friendsofphp/php-cs-fixer": "^3.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Acme\\RateLimiter\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Acme\\RateLimiter\\Tests\\": "tests/"
+    }
+  },
+  "scripts": {
+    "test": "phpunit",
+    "cs-fix": "php-cs-fixer fix"
+  }
+}
